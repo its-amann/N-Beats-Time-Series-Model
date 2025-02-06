@@ -13,7 +13,7 @@
 This project implements an advanced time series forecasting model using the N-BEATS (Neural Basis Expansion Analysis for Time Series) architecture to predict electricity prices. The model demonstrates state-of-the-art performance in capturing complex temporal patterns and seasonality in electricity price data.
 
 <div align="center">
-  <img src="N-Beats-Time-Series-Model/_asserts/viewing the data.png" alt="Data Overview" width="800"/>
+  <img src="_asserts/viewing the data.png" alt="Data Overview" width="800"/>
   <p><em>Initial view of the electricity price data across different regions</em></p>
 </div>
 
@@ -57,7 +57,7 @@ Our dataset comprises hourly electricity consumption data across multiple region
 - Complete dataset with no missing values
 
 <div align="center">
-  <img src="N-Beats-Time-Series-Model/_asserts/eda seeing hourly price rate.png" alt="Hourly Price Analysis" width="800"/>
+  <img src="_asserts/eda seeing hourly price rate.png" alt="Hourly Price Analysis" width="800"/>
   <p><em>Hourly electricity price patterns showing significant temporal variations</em></p>
 </div>
 
@@ -65,7 +65,7 @@ Our dataset comprises hourly electricity consumption data across multiple region
 The seasonal decomposition reveals three distinct components:
 
 <div align="center">
-  <img src="N-Beats-Time-Series-Model/_asserts/seasonal plot eda graph.png" alt="Seasonal Decomposition" width="800"/>
+  <img src="_asserts/seasonal plot eda graph.png" alt="Seasonal Decomposition" width="800"/>
   <p><em>Decomposition of time series into trend, seasonal, and residual components</em></p>
 </div>
 
@@ -90,12 +90,12 @@ The seasonal decomposition reveals three distinct components:
 ### Autocorrelation Analysis
 
 <div align="center">
-  <img src="N-Beats-Time-Series-Model/_asserts/autocorelation plot eda acf.png" alt="ACF Analysis" width="800"/>
+  <img src="_asserts/autocorelation plot eda acf.png" alt="ACF Analysis" width="800"/>
   <p><em>Autocorrelation function showing temporal dependencies</em></p>
 </div>
 
 <div align="center">
-  <img src="N-Beats-Time-Series-Model/_asserts/eda pacf plot.png" alt="PACF Analysis" width="800"/>
+  <img src="_asserts/eda pacf plot.png" alt="PACF Analysis" width="800"/>
   <p><em>Partial autocorrelation function revealing direct temporal relationships</em></p>
 </div>
 
@@ -128,13 +128,13 @@ model_config = {
 ```
 
 <div align="center">
-  <img src="N-Beats-Time-Series-Model/_asserts/training the n-beasts model.png" alt="Model Training" width="800"/>
+  <img src="_asserts/training the n-beasts model.png" alt="Model Training" width="800"/>
   <p><em>N-BEATS model training process and architecture details</em></p>
 </div>
 
 ### Hyperparameter Optimization Results
 <div align="center">
-  <img src="N-Beats-Time-Series-Model/_asserts/parameter tuning started.png" alt="Parameter Tuning" width="800"/>
+  <img src="_asserts/parameter tuning started.png" alt="Parameter Tuning" width="800"/>
   <p><em>Hyperparameter optimization process and results</em></p>
 </div>
 
@@ -147,7 +147,7 @@ Best configuration achieved through extensive parameter tuning:
 - Training epochs: 5 (preventing overfitting)
 
 <div align="center">
-  <img src="N-Beats-Time-Series-Model/_asserts/best params in dataframe form.png" alt="Best Parameters" width="800"/>
+  <img src="_asserts/best params in dataframe form.png" alt="Best Parameters" width="800"/>
   <p><em>Final optimized model parameters</em></p>
 </div>
 
@@ -155,7 +155,7 @@ Best configuration achieved through extensive parameter tuning:
 
 ### Cross-validation Results
 <div align="center">
-  <img src="N-Beats-Time-Series-Model/_asserts/cross validation results plot.png" alt="Cross-validation Results" width="800"/>
+  <img src="_asserts/cross validation results plot.png" alt="Cross-validation Results" width="800"/>
   <p><em>Cross-validation performance across multiple time periods</em></p>
 </div>
 
@@ -166,7 +166,7 @@ Best configuration achieved through extensive parameter tuning:
 
 ### Final Predictions
 <div align="center">
-  <img src="N-Beats-Time-Series-Model/_asserts/predictions graph of the model.png" alt="Final Predictions" width="800"/>
+  <img src="_asserts/predictions graph of the model.png" alt="Final Predictions" width="800"/>
   <p><em>Model predictions compared to actual electricity prices</em></p>
 </div>
 
